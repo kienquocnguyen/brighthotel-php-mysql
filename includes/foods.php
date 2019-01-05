@@ -1,0 +1,26 @@
+<?php
+    $foods = "SELECT * FROM foods ORDER BY id ASC";
+    $foodlist = mysqli_query($link, $foods);
+    if(mysqli_num_rows($foodlist) > 0)
+    {
+        while($row = mysqli_fetch_array($foodlist))
+        {
+        ?>
+            <div class="item">
+                <form method="post" action="foods.php?action=add&Id=<?php echo $row["Id"]; ?>">
+                    <div class="block-34">
+                        <div class="image">
+                            <a href="#"><img src="<?php echo $row["images"]; ?>" alt="Image placeholder"></a>
+                        </div>
+                        <div class="text">
+                            <h2 class="heading"><?php echo $row["Name"]; ?></h2>
+                            <p><?php echo $row["Description"]; ?></p>
+                            <div class="price"><sup>$</sup><span class="number"><?php echo $row["Price"]; ?></span></div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        <?php      
+        }
+    }
+?>  

@@ -11,7 +11,7 @@ include ("db.php");
         {
         ?>
         <div class="item">
-            <form method="post" action="test.php?action=add&Id=<?php echo $row["Id"]; ?>">
+            <form method="post" action="rooms.php?action=add&Id=<?php echo $row["Id"]; ?>">
                 <div class="block-34">
                 <div class="image">
                     <a href="#"><img src="<?php echo $row["images"]; ?>" alt="Image placeholder"></a>
