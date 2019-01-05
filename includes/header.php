@@ -1,3 +1,7 @@
+<?php
+// Initialize the session
+include ("db.php");
+?>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -31,7 +35,7 @@
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="rooms.html" class="nav-link">Rooms</a></li>
+          <li class="nav-item"><a href="roomspage.php" class="nav-link">Rooms</a></li>
           <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>
           <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Blog</a></li>

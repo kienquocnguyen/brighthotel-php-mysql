@@ -1,8 +1,4 @@
 <?php
-// Initialize the session
-include ("db.php");
-?>
-<?php
     $query = "SELECT * FROM rooms ORDER BY id ASC";
     $result = mysqli_query($link, $query);
     if(mysqli_num_rows($result) > 0)
