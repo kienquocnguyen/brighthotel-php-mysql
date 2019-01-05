@@ -212,8 +212,8 @@
               <div class="row">
                 <div class="col-md-12 block-13">
                   <div class="nonloop-block-13 owl-carousel">
-                  <?php include_once("includes/foods.php")?>
 
+                    <?php include_once("includes/foods/breakfast.php")?>
                     
                   </div>
                 </div>
@@ -225,111 +225,9 @@
               <div class="row">
                 <div class="col-md-12 block-13">
                   <div class="nonloop-block-13 owl-carousel">
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">23.45</span></div>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Asparagus</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">30.50</span></div>
-                        </div>
-                      </div>
-                    </div>
+                    <?php include_once("includes/foods/lunch.php")?>
 
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">45.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Spicy Noodles</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">33.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Asparagus</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">30.50</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">23.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">45.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Spicy Noodles</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">33.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    
                   </div>
                 </div>
               </div>
@@ -338,110 +236,8 @@
               <div class="row">
                 <div class="col-md-12 block-13">
                   <div class="nonloop-block-13 owl-carousel">
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">45.45</span></div>
-                        </div>
-                      </div>
-                    </div>
 
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Asparagus</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">30.50</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">23.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Spicy Noodles</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">33.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_1.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Asparagus</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">30.50</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_2.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Grilled Top Sirloin Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">23.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_3.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Egg &amp; Grilled Steak</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">45.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div class="item">
-                      <div class="block-34">
-                        <div class="image">
-                          <a href="#"><img src="images/menu_4.jpg" alt="Image placeholder"></a>
-                        </div>
-                        <div class="text">
-                          <h2 class="heading">Spicy Noodles</h2>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione quo vel aut ab qui quas!</p>
-                          <div class="price"><sup>$</sup><span class="number">33.45</span></div>
-                        </div>
-                      </div>
-                    </div>
-
+                    <?php include_once("includes/foods/dinner.php")?>
                     
                   </div>
                 </div>

@@ -1,13 +1,13 @@
 <?php
-    $foods = "SELECT * FROM foods ORDER BY id ASC";
-    $foodlist = mysqli_query($link, $foods);
-    if(mysqli_num_rows($foodlist) > 0)
+    $dinner = "SELECT * FROM foods WHERE Categories = 'Dinner' ORDER BY id ASC";
+    $dinnerlist = mysqli_query($link, $dinner);
+    if(mysqli_num_rows($dinnerlist) > 0)
     {
-        while($row = mysqli_fetch_array($foodlist))
+        while($row = mysqli_fetch_array($dinnerlist))
         {
         ?>
             <div class="item">
-                <form method="post" action="foods.php?action=add&Id=<?php echo $row["Id"]; ?>">
+                <form method="post" action="breakfast.php?action=add&Id=<?php echo $row["Id"]; ?>">
                     <div class="block-34">
                         <div class="image">
                             <a href="#"><img src="<?php echo $row["images"]; ?>" alt="Image placeholder"></a>
