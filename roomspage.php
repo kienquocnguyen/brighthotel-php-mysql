@@ -101,178 +101,43 @@
             </div>
           </div>
 
+<!-- Rooms List -->
         <div class="row">
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_1.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price"><sup>$</sup><span class="number">156</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_2.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Family Room</h2>
-                <div class="price"><sup>$</sup><span class="number">245</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_3.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Presidential Room</h2>
-                <div class="price"><sup>$</sup><span class="number">375</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_1.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price"><sup>$</sup><span class="number">156</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_2.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Family Room</h2>
-                <div class="price"><sup>$</sup><span class="number">245</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_3.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Presidential Room</h2>
-                <div class="price"><sup>$</sup><span class="number">375</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_1.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Bachelor Room</h2>
-                <div class="price"><sup>$</sup><span class="number">156</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_2.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Family Room</h2>
-                <div class="price"><sup>$</sup><span class="number">245</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 mb-5">
-            <div class="block-34">
-              <div class="image">
-                <a href="#"><img src="images/img_3.jpg" alt="Image placeholder"></a>
-              </div>
-              <div class="text">
-                <h2 class="heading">Presidential Room</h2>
-                <div class="price"><sup>$</sup><span class="number">375</span><sub>/per night</sub></div>
-                <ul class="specs">
-                  <li><strong>Adults:</strong> 1</li>
-                  <li><strong>Categories:</strong> Single</li>
-                  <li><strong>Facilities:</strong> Closet with hangers, HD flat-screen TV, Telephone</li>
-                  <li><strong>Size:</strong> 20m<sup>2</sup></li>
-                  <li><strong>Bed Type:</strong> One bed</li>
-                </ul>
-              </div>
-            </div>
-          </div>
+          <?php
+            $query = "SELECT * FROM rooms ORDER BY id ASC";
+            $result = mysqli_query($link, $query);
+            if(mysqli_num_rows($result) > 0)
+            {
+                while($row = mysqli_fetch_array($result))
+                {
+                ?>
+                <div class="col-lg-4 mb-5">
+                  <form method="post" action="rooms.php?action=add&Id=<?php echo $row["Id"]; ?>">
+                    <div class="block-34">
+                      <div class="image">
+                        <a href="#"><img src="<?php echo $row["images"]; ?>" alt="Image placeholder"></a>
+                      </div>
+                      <div class="text">
+                        <h2 class="heading"><?php echo $row["Name"]; ?></h2>
+                        <div class="price"><sup>$</sup><span class="number"><?php echo $row["Price"]; ?></span><sub>/per night</sub></div>
+                        <ul class="specs">
+                          <li><strong>Adults:</strong> <?php echo $row["Contain"]; ?></li>
+                          <li><strong>Categories:</strong> <?php echo $row["Categories"]; ?></li>
+                          <li><strong>Facilities:</strong> <?php echo $row["Facilities"]; ?></li>
+                          <li><strong>Size:</strong> <?php echo $row["Size"]; ?>m<sup>2</sup></li>
+                          <li><strong>Bed Type:</strong> <?php echo $row["Bedtype"]; ?></li>
+                        </ul>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <?php      
+                  }
+              }
+          ?>  
         </div>
+<!-- End Rooms List -->
+
       </div>
     </div>
     

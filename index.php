@@ -88,7 +88,9 @@
                   </div>
                 </div>
                 <div class="col-md-6 col-lg-3 align-self-end">
-                  <button class="btn btn-primary btn-block">Check Availabilty</button>
+                  <a href="bookingpage.php">
+                    <input class="btn btn-primary btn-block" value="Check Availabilty"/>
+                  </a>
                 </div>
               </div>
             </form>
