@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 15, 2019 lúc 10:13 SA
+-- Thời gian đã tạo: Th1 16, 2019 lúc 09:19 SA
 -- Phiên bản máy phục vụ: 5.7.14
 -- Phiên bản PHP: 5.6.25
 
@@ -81,7 +81,14 @@ INSERT INTO `reservation` (`Id`, `country`, `rooms`, `checkin`, `checkout`, `nor
 (1, 'USA', 'Bachelor Room', '2019-01-16', '2019-01-18', 1, 2, 0, 'Nguyen', 'Hoang', 'hoangnguyen@gmail.com', '0913987372'),
 (2, 'USA', 'Family Room', '2019-01-16', '2019-01-18', 1, 1, 0, 'Nguyen', 'Hanh', 'hanhnew@gmail.com', '01212471455'),
 (3, 'Vietnam', 'Family Room', '2019-01-16', '2019-01-18', 1, 2, 0, 'John', 'Joe', 'johnjoe@gmail.com', '01694888218'),
-(4, 'Vietnam', 'Bachelor Room', '2019-01-20', '2019-01-22', 1, 1, 0, 'Nguyen Kien', 'Quoc', 'kienquocnguyen1998@gmail.com', '0792471435');
+(4, 'Vietnam', 'Bachelor Room', '2019-01-20', '2019-01-22', 1, 1, 0, 'Nguyen Kien', 'Quoc', 'kienquocnguyen1998@gmail.com', '0792471435'),
+(5, 'Vietnam', 'Presidential Room', '2019-01-25', '2019-01-30', 1, 1, 0, 'Nguyen Ngoc My', 'Phuong', 'phuongnguyen@gmail.com', '0792471433'),
+(6, 'Australia', 'VIP Room', '2019-01-22', '2019-01-24', 1, 2, 0, 'Nick', 'Jonas', 'nickjonas@gmail.com', '0913987377'),
+(7, 'Vietnam', 'VIP Room 2', '2019-03-29', '2019-03-31', 1, 2, 0, 'Nguyen', 'Mike', 'mikenguyen1998@gmail.com', '0947435533'),
+(8, 'Australia', 'VIP Room 2', '2019-02-20', '2019-02-24', 1, 1, 0, 'Rans', 'Danny', 'ironfist@gmail.com', '0947436666'),
+(9, 'UK', 'VIP Room 2', '2019-02-15', '2019-02-20', 1, 2, 1, 'Banner', 'Bruce', 'thehulk@gmail.com', '01694878234'),
+(10, 'USA', 'Double Room', '2019-02-05', '2019-02-07', 1, 1, 0, 'Langs', 'Scott', 'antman@gmail.com', '01694878356'),
+(11, 'USA', 'Family Room', '2019-02-08', '2019-02-10', 1, 1, 0, 'Cage', 'Luke', 'powerman@gmail.com', '0947438989');
 
 -- --------------------------------------------------------
 
@@ -137,7 +144,7 @@ ALTER TABLE `rooms`
 -- AUTO_INCREMENT cho bảng `reservation`
 --
 ALTER TABLE `reservation`
-  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `Id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
