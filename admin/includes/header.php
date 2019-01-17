@@ -1,5 +1,5 @@
 <?php
-// Initialize the session
+
 include ("../includes/db.php");
 ?>
 <!doctype html>
