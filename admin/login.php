@@ -7,7 +7,7 @@
 
 <?php
    // Login Controller
-   include_once("logincontroller.php");
+   include ("logincontroller.php");
 
 ?>
 

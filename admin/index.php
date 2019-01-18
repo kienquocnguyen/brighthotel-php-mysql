@@ -1,15 +1,16 @@
 <?php include_once("includes/header.php") ?>
+
 <!-- Put Jquery and Bootstrap here because we need to load modal in login function -->
 <script src="vendors/jquery/dist/jquery.min.js"></script>
 <script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
 <!-- Put Jquery and Bootstrap here because we need to load modal in login function -->
 <!-- Welcome Admin -->
 <?php
-    if (!isset($_SESSION['email'])){
-        header('location: login.php');
+    if (!isset($_SESSION['login_session'])){
+        echo "test";
     }
-    else{
-        "<script>$(document).ready(function(){ $('#welcome').modal('show'); });</script>
+    elseif(isset($_SESSION['login_session'])){
+        echo "<script>$(document).ready(function(){ $('#welcome').modal('show'); });</script>
             <!-- Welcome modal -->
             <div class='modal' id='welcome'>
                 <div class='modal-dialog'>
@@ -41,7 +42,6 @@
     
 ?>
 <!-- Welcome Admin -->
-
 <body>
     <!-- Left Panel -->
 
@@ -238,7 +238,7 @@
 
                             <a class="nav-link" href="#"><i class="fa fa-cog"></i> Settings</a>
 
-                            <a class="nav-link" href="#"><i class="fa fa-power-off"></i> Logout</a>
+                            <a class="nav-link" href="logout.php"><i class="fa fa-power-off"></i> Logout</a>
                         </div>
                     </div>
 

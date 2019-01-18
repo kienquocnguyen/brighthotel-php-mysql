@@ -1,8 +1,6 @@
 
-
 <!-- login function -->
 <?php
-    
     if($_SERVER["REQUEST_METHOD"] == "POST"){
         $email = mysqli_real_escape_string($link,$_POST['email']);
         $password = mysqli_real_escape_string($link,$_POST['password']);
@@ -52,4 +50,5 @@
         }
     }
 ?>
+
 <!--login function -->
