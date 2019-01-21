@@ -6,12 +6,9 @@
 <!-- Put Jquery and Bootstrap here because we need to load modal in login function -->
 <!-- Welcome Admin -->
 <?php
-    if (!isset($_SESSION['login_session'])){
-        echo "test";
-    }
-    elseif(isset($_SESSION['login_session'])){
+//Welcome modal
+    if (isset($_SESSION['login_user'])){
         echo "<script>$(document).ready(function(){ $('#welcome').modal('show'); });</script>
-            <!-- Welcome modal -->
             <div class='modal' id='welcome'>
                 <div class='modal-dialog'>
                 <div class='modal-content'>
@@ -36,16 +33,47 @@
                 </div>
             </div>
             
-            </div>
-            <!-- Welcome modal -->";
+            </div>";
     }
+//Welcome modal
+
+//Admin still not loged in
+    else{
+        echo "<script>$(document).ready(function(){ $('#wrongpasswordoremail').modal('show'); });</script>
+        <div class='modal' id='wrongpasswordoremail'>
+            <div class='modal-dialog'>
+              <div class='modal-content'>
+              
+                <!-- Modal Header -->
+                <div class='modal-header'>
+                  <h4 class='modal-title'>Please Login</h4>
+                  <button type='button' class='close' data-dismiss='modal'>&times;</button>
+                </div>
+                
+                <!-- Modal body -->
+                <div class='modal-body'>
+                  <p>Login to your acount before go to admin dashboard</p>
+                </div>
+                
+                <!-- Modal footer -->
+                <div class='modal-footer'>
+                  <a href='login.php' class='btn btn-primary'>Login</a>
+                </div>
+                
+              </div>
+            </div>
+          </div>
+        </div>";
+        exit();
+    }
+//Admin still not loged in
     
 ?>
 <!-- Welcome Admin -->
 <body>
-    <!-- Left Panel -->
+<!-- Left Panel -->
 
-    <aside id="left-panel" class="left-panel">
+<aside id="left-panel" class="left-panel">
         <nav class="navbar navbar-expand-sm navbar-default">
 
             <div class="navbar-header">
@@ -58,27 +86,18 @@
 
             <div id="main-menu" class="main-menu collapse navbar-collapse">
                 <ul class="nav navbar-nav">
-                    <li class="active">
+                    <li>
                         <a href="index.html"> <i class="menu-icon fa fa-dashboard"></i>Dashboard </a>
                     </li>
                     <h3 class="menu-title">UI elements</h3><!-- /.menu-title -->
                     <li class="menu-item-has-children dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-laptop"></i>Components</a>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Reservation</a>
                         <ul class="sub-menu children dropdown-menu">
-                            <li><i class="fa fa-puzzle-piece"></i><a href="ui-buttons.html">Buttons</a></li>
-                            <li><i class="fa fa-id-badge"></i><a href="ui-badges.html">Badges</a></li>
-                            <li><i class="fa fa-bars"></i><a href="ui-tabs.html">Tabs</a></li>
-                            <li><i class="fa fa-share-square-o"></i><a href="ui-social-buttons.html">Social Buttons</a></li>
-                            <li><i class="fa fa-id-card-o"></i><a href="ui-cards.html">Cards</a></li>
-                            <li><i class="fa fa-exclamation-triangle"></i><a href="ui-alerts.html">Alerts</a></li>
-                            <li><i class="fa fa-spinner"></i><a href="ui-progressbar.html">Progress Bars</a></li>
-                            <li><i class="fa fa-fire"></i><a href="ui-modals.html">Modals</a></li>
-                            <li><i class="fa fa-book"></i><a href="ui-switches.html">Switches</a></li>
-                            <li><i class="fa fa-th"></i><a href="ui-grids.html">Grids</a></li>
-                            <li><i class="fa fa-file-word-o"></i><a href="ui-typgraphy.html">Typography</a></li>
+                            <li><i class="fa fa-table"></i><a href="reserve-management.php">Checking</a></li>
+                            <li><i class="fa fa-table"></i><a href="tables-data.html">Calendar</a></li>
                         </ul>
                     </li>
-                    <li class="menu-item-has-children dropdown">
+                    <li class="menu-item-has-children active dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Tables</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-table"></i><a href="tables-basic.html">Basic Table</a></li>
@@ -605,4 +624,7 @@
                     <div class="twt-write col-sm-12">
                         <textarea placeholder="Write your Tweet and Enter" rows="1" class="form-control t-text-area"></textarea>
                     </div>
+
+<script src="vendors/jquery/dist/jquery.min.js"></script>
+<script src="vendors/bootstrap/dist/js/bootstrap.min.js"></script>
 <?php include_once("includes/footer.php") ?>
