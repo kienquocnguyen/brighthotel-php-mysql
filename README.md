@@ -9,3 +9,14 @@ First i would like to thank Colorlib for create a free but really greate and bea
 
 ![2](https://user-images.githubusercontent.com/33189395/53479753-4cdf4f80-3aac-11e9-878c-01c6fd78b5aa.png)
 
+<b>Author:</b> Colorlib
+
+<b>Released:</b> June, 2018
+
+<b>Licence:</b> CC BY 3.0 (footer credits must remain in place)
+
+<b>Credits:</b> Images from Unsplash
+
+Link: https://colorlib.com/wp/template/bright-hotel/
+
+
