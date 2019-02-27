@@ -1,4 +1,24 @@
 <?php include ("../../includes/db.php");?>
+<?php
+$query = "SELECT * FROM reservation ORDER BY Id ASC";
+$result = mysqli_query($link, $query);
+if(mysqli_num_rows($result) > 0)
+{
+	while($row = mysqli_fetch_array($result))
+	{
+	$events = array(
+		array(
+			'id' => 6,
+			'title' => $row["lastname"],
+			'start' => date($row["checkin"]),
+			'end' => date($row["checkout"]),
+			'allDay' => true,
+			'className' => 'info'
+		)
+	);      
+    }
+}   
+?>
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,7 +67,7 @@
 			
 		});
 	
-	
+		var events = <?php echo json_encode($events) ?>;
 		/* initialize the calendar
 		-----------------------------------------------------------------*/
 		
@@ -112,11 +132,10 @@
 				if ($('#drop-remove').is(':checked')) {
 					// if so, remove the element from the "Draggable Events" list
 					$(this).remove();
-				}
-				
+				}	
 			},
-			
-			events: [
+			events
+			/*events: [
 				{
 					title: 'All Day Event',
 					start: new Date(y, m, 1)
@@ -161,10 +180,8 @@
 					url: 'http://google.com/',
 					className: 'success'
 				}
-			],			
+			],*/
 		});
-		
-		
 	});
 
 </script>

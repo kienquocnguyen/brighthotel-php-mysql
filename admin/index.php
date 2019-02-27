@@ -94,7 +94,7 @@
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"> <i class="menu-icon fa fa-table"></i>Reservation</a>
                         <ul class="sub-menu children dropdown-menu">
                             <li><i class="fa fa-table"></i><a href="reserve-management.php">Checking</a></li>
-                            <li><i class="fa fa-table"></i><a href="tables-data.html">Calendar</a></li>
+                            <li><i class="fa fa-table"></i><a href="reservation-calendar/index.php">Calendar</a></li>
                         </ul>
                     </li>
                     <li class="menu-item-has-children active dropdown">

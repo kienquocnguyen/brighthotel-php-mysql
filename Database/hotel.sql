@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Máy chủ: 127.0.0.1
--- Thời gian đã tạo: Th1 16, 2019 lúc 09:19 SA
+-- Thời gian đã tạo: Th2 27, 2019 lúc 12:53 SA
 -- Phiên bản máy phục vụ: 5.7.14
 -- Phiên bản PHP: 5.6.25
 
@@ -19,6 +19,26 @@ SET time_zone = "+00:00";
 --
 -- Cơ sở dữ liệu: `hotel`
 --
+
+-- --------------------------------------------------------
+
+--
+-- Cấu trúc bảng cho bảng `admin`
+--
+
+CREATE TABLE `admin` (
+  `id` int(11) NOT NULL,
+  `username` varchar(50) NOT NULL,
+  `email` varchar(50) NOT NULL,
+  `password` varchar(255) NOT NULL
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Đang đổ dữ liệu cho bảng `admin`
+--
+
+INSERT INTO `admin` (`id`, `username`, `email`, `password`) VALUES
+(1, 'kienquocnguyen1998', 'admin@gmail.com', 'admin');
 
 -- --------------------------------------------------------
 
@@ -79,16 +99,13 @@ CREATE TABLE `reservation` (
 
 INSERT INTO `reservation` (`Id`, `country`, `rooms`, `checkin`, `checkout`, `norooms`, `noadults`, `nochildren`, `firstname`, `lastname`, `email`, `phone`) VALUES
 (1, 'USA', 'Bachelor Room', '2019-01-16', '2019-01-18', 1, 2, 0, 'Nguyen', 'Hoang', 'hoangnguyen@gmail.com', '0913987372'),
-(2, 'USA', 'Family Room', '2019-01-16', '2019-01-18', 1, 1, 0, 'Nguyen', 'Hanh', 'hanhnew@gmail.com', '01212471455'),
-(3, 'Vietnam', 'Family Room', '2019-01-16', '2019-01-18', 1, 2, 0, 'John', 'Joe', 'johnjoe@gmail.com', '01694888218'),
 (4, 'Vietnam', 'Bachelor Room', '2019-01-20', '2019-01-22', 1, 1, 0, 'Nguyen Kien', 'Quoc', 'kienquocnguyen1998@gmail.com', '0792471435'),
 (5, 'Vietnam', 'Presidential Room', '2019-01-25', '2019-01-30', 1, 1, 0, 'Nguyen Ngoc My', 'Phuong', 'phuongnguyen@gmail.com', '0792471433'),
 (6, 'Australia', 'VIP Room', '2019-01-22', '2019-01-24', 1, 2, 0, 'Nick', 'Jonas', 'nickjonas@gmail.com', '0913987377'),
 (7, 'Vietnam', 'VIP Room 2', '2019-03-29', '2019-03-31', 1, 2, 0, 'Nguyen', 'Mike', 'mikenguyen1998@gmail.com', '0947435533'),
 (8, 'Australia', 'VIP Room 2', '2019-02-20', '2019-02-24', 1, 1, 0, 'Rans', 'Danny', 'ironfist@gmail.com', '0947436666'),
 (9, 'UK', 'VIP Room 2', '2019-02-15', '2019-02-20', 1, 2, 1, 'Banner', 'Bruce', 'thehulk@gmail.com', '01694878234'),
-(10, 'USA', 'Double Room', '2019-02-05', '2019-02-07', 1, 1, 0, 'Langs', 'Scott', 'antman@gmail.com', '01694878356'),
-(11, 'USA', 'Family Room', '2019-02-08', '2019-02-10', 1, 1, 0, 'Cage', 'Luke', 'powerman@gmail.com', '0947438989');
+(10, 'USA', 'Double Room', '2019-02-05', '2019-02-07', 1, 1, 0, 'Langs', 'Scott', 'antman@gmail.com', '01694878356');
 
 -- --------------------------------------------------------
 
@@ -105,24 +122,31 @@ CREATE TABLE `rooms` (
   `Facilities` varchar(200) COLLATE utf8_unicode_ci NOT NULL,
   `Size` varchar(50) COLLATE utf8_unicode_ci NOT NULL,
   `Bedtype` varchar(100) COLLATE utf8_unicode_ci DEFAULT NULL,
-  `images` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL
+  `images` varchar(50) COLLATE utf8_unicode_ci DEFAULT NULL,
+  `status` varchar(50) COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
 
 --
 -- Đang đổ dữ liệu cho bảng `rooms`
 --
 
-INSERT INTO `rooms` (`Id`, `Name`, `Price`, `Contain`, `Categories`, `Facilities`, `Size`, `Bedtype`, `images`) VALUES
-(1, 'Bachelor Room', '156', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_1.jpg'),
-(2, 'Family Room', '320', '3', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_2.jpg'),
-(3, 'Presidential Room', '425', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_3.jpg'),
-(4, 'Double Room', '525', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_4.jpg'),
-(5, 'VIP Room', '600', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_5.jpg'),
-(6, 'VIP Room 2', '760', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_6.jpg');
+INSERT INTO `rooms` (`Id`, `Name`, `Price`, `Contain`, `Categories`, `Facilities`, `Size`, `Bedtype`, `images`, `status`) VALUES
+(1, 'Bachelor Room', '156', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_1.jpg', 'Available'),
+(2, 'Family Room', '320', '3', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_2.jpg', 'Unavailable'),
+(3, 'Presidential Room', '425', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_3.jpg', 'Available'),
+(4, 'Double Room', '525', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_4.jpg', 'Available'),
+(5, 'VIP Room', '600', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_5.jpg', 'Available'),
+(6, 'VIP Room 2', '760', '1', 'Single', 'Closet with hangers, HD flat-screen TV, Telephone', '20', 'One bed', 'images/img_6.jpg', 'Available');
 
 --
 -- Chỉ mục cho các bảng đã đổ
 --
+
+--
+-- Chỉ mục cho bảng `admin`
+--
+ALTER TABLE `admin`
+  ADD PRIMARY KEY (`id`);
 
 --
 -- Chỉ mục cho bảng `reservation`
