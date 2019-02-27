@@ -9,14 +9,25 @@ First i would like to thank Colorlib for create a free but really greate and bea
 
 ![2](https://user-images.githubusercontent.com/33189395/53479753-4cdf4f80-3aac-11e9-878c-01c6fd78b5aa.png)
 
-<b>Author:</b> Colorlib
+  <b>Author:</b> Colorlib
 
-<b>Released:</b> June, 2018
+  <b>Released:</b> June, 2018
 
-<b>Licence:</b> CC BY 3.0 (footer credits must remain in place)
+  <b>Licence:</b> CC BY 3.0 (footer credits must remain in place)
 
-<b>Credits:</b> Images from Unsplash
+  <b>Credits:</b> Images from Unsplash
 
-Link: https://colorlib.com/wp/template/bright-hotel/
+  <b>Link:</b> https://colorlib.com/wp/template/bright-hotel/
 
+And the amazing booking form template the Colorlib Booking Form v8
+
+![4](https://user-images.githubusercontent.com/33189395/53480900-b06a7c80-3aae-11e9-9cf0-e57485062e09.png)
+
+<b>Link:</b> https://colorlib.com/wp/free-booking-form-templates/
+  
+  In this template i use most of data from the template then i use while loop to call something like foods menu, list of hotel rooms,...     from mysql table
+  
+  <b>Example:</b>
+  ![3](https://user-images.githubusercontent.com/33189395/53480587-16a2cf80-3aae-11e9-97f9-1be474b4304f.png)
+  
 
