@@ -34,6 +34,7 @@ Third is once again many thanks to Colorlib for create a beautiful Sufee Admin T
   <b>Author:</b> Colorlib
   
   <b>Licence:</b> Sufee is licensed under The MIT License (MIT). Which means that you can use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the final products. But you always need to state that Colorlib is the original author of this template.
+  
   <b>Demo Site:</b> https://colorlib.com/polygon/sufee/index.html
   
 <h3>II. What i bulid in this project</h3>
